@@ -1,0 +1,100 @@
+.recent-watches {
+  h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #f9f9f9;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.12px;
+  }
+  .film1 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      cursor: pointer;
+    }
+    .texts {
+      padding: 10px;
+      position: absolute;
+      bottom: 10px;
+      left: 0;
+      p {
+        font-size: 16px;
+        color: #f9f9f9;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0.08px;
+      }
+      h5 {
+        color: #78828a;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0.06px;
+      }
+      .hours {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .pause {
+          background-color: #78828a;
+          border-radius: 50%;
+        }
+        span {
+          font-size: 10px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 20px;
+          letter-spacing: 0.06px;
+          color: #d1d8dd;
+        }
+      }
+    }
+  }
+  .film2 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      cursor: pointer;
+    }
+    .texts {
+      position: absolute;
+      text-align: center;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      svg {
+        background-color: #78828a;
+        border-radius: 50%;
+      }
+      p {
+        margin-top: 5px;
+        color: #f9f9f9;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0.08px;
+      }
+      h5 {
+        color: #78828A;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0.06px;
+      }
+    }
+  }
+}

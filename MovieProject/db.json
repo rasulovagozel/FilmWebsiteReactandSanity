@@ -1,0 +1,28 @@
+{
+  "films": [
+    {
+      "id": 1,
+      "image": "https://s3-alpha-sig.figma.com/img/8912/43bd/c0464f2efdd5c011d26f6a7c84cb2541?Expires=1693785600&Signature=ObNdwwAqdz06uxIsY1EOYK~t73iZhzvckrRJ98tIkKOLtJ~KAq7C6r-ZFXYupBEy~BcSKmzsv1a16yKxw3Q7WbNtSTDMKiL~VdfeRsIBpu7Bl9Y6CxfzEpppT1M916RozXXbbWCwjBxPf0el24-5FohQ1m5cvZMey3wujuFcHHspemPiJ~voFKgcUiqogzGj7Gkg5NkvmSw5yVCCQ6epQdZh7M5BpYhyITBV2UPl-3A9qq30ZhpDv4FPgzYT~lKRaBzfx~38dYfUtY3-06vkpFRenqfvcKu1hGU~Jq9LqA1P8RdlOeys9cBZDAm1uS~TsPeJW-1PTrP9OWcVUZojMg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "pg": "PG-13",
+      "name": "The Shawshank Redemption (1994)",
+      "category": "Drama",
+      "imdb": "9.2"
+    },
+    {
+      "id": 2,
+      "image": "https://s3-alpha-sig.figma.com/img/c87c/ec64/92fac0679c092660fb27fc937af78010?Expires=1693785600&Signature=Kagw2m1e7Egv4-L-OG~5GXasR89w0hyocivsC~NgjtQQw5DNYkPVGY~T1LW-GTFNznsZROXQrK9h63BJLys2kJvZjK3ePLMINrNosdkBZl8ldrGNvIeG9gyudFXS65OCP0j1jMyCMtrp4YFWWAZDq4Va0gTjfCjj77jjCBpmJGLAihrOr51~t6hqkaWKrFUIhisMcH-FoOiyNsD9EBez3wjayHUocInxMv8NwdifIUaLRgKl7WMlMfHgEt4qa35YIefTGOvUHSK-XDrEiBvTN48utjzkI8r5MzFchjhsIqru6F0o21Gvggd2hvIx6fr8EZBEWIL-2wK0by0c5ZVUPw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "pg": "PG-13",
+      "name": "The Godfather",
+      "category": "Crime • Drama",
+      "imdb": "9.2"
+    },
+    {
+      "id": 3,
+      "image": "https://s3-alpha-sig.figma.com/img/9bd1/785f/ad7fedf2a3f5d1ae337020b4e3b5fd95?Expires=1693785600&Signature=h5fmLcFrILPlc~zLkZPP-BmoM~Cc5Pqn~qWWNg~yCxFi8yrOaDKcJEoT6DePDQs~R2LecAKsMEs9LABf6W-wbXNwsHflbSC4vLiteRo0BwwW4m9as1~121-e-meMRkBZG6xRdrMMPvKYLEsj5OsQm4Qys1Wp3Se3DcSj6rq5f4BangLKp1kfEbdMSriP5ZUl-57vGVZGZOsaoHUuqli4T0BlZcudde7bellIWhJrF7dUXOSRes~4nTr3hGI4HNa8j0iUhNT3PnW5W8GE08fYLo-P0fYLnAB0MkhqE5GETsT~dhKzBTiMrgdmFN-Gvp8rOshK-s68x4mAU~ierU6CGg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "pg": "PG-13",
+      "name": "The Dark Knight (2008)",
+      "category": "Action • Crime",
+      "imdb": "9.2"
+    }
+  ]
+}

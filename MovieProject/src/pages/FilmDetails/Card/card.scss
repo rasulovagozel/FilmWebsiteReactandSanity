@@ -1,0 +1,130 @@
+.film-details {
+  .image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  .info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+    .about {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      p {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        color: #d1d8dd;
+        letter-spacing: 0.06px;
+        border-radius: 8px;
+        border: 1px solid #29282f;
+        padding: 4px 8px;
+        max-width: 60px;
+        text-align: center;
+      }
+      h3 {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        color: #f9f9f9;
+        letter-spacing: 0.12px;
+        max-width: 250px;
+      }
+      h5 {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        color: #78828a;
+        letter-spacing: 0.06px;
+        svg {
+          font-size: 20px;
+        }
+      }
+      .star {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        span {
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          letter-spacing: 0.12px;
+          color: #f9f9f9;
+        }
+        svg {
+          color: #ffcd1a;
+          font-size: 25px;
+        }
+      }
+    }
+    .down_share_like {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      .download,
+      .share,
+      .like {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        border-radius: 16px;
+        border: 1px solid #29282f;
+        background: #0d0c0f;
+        text-align: center;
+        padding: 12px 8px 0 8px;
+        svg {
+          font-size: 24px;
+          color: #f9f9f9;
+        }
+        p {
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 26px;
+          color: #f9f9f9;
+          letter-spacing: 0.09px;
+        }
+      }
+      .like{
+        border: none;
+        background-color: #EB3F5E;
+      }
+    }
+  }
+  .story{
+    margin-top: 30px;
+    h3{
+        font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px;
+color: #f9f9f9;
+letter-spacing: 0.12px;
+    }
+    h4{
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.08px;
+color: #9CA4AB;
+    }
+  }
+}

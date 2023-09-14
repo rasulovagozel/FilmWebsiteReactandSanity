@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.dark{
+    background-color: #f9f9f9 !important;
+    color: #0D0C0F;
+    li,h2,h3,span,p,svg{
+        color: #0D0C0F !important;
+    }
+    .logo{
+        p{
+            color: #0D0C0F !important;
+        }
+    }
+    .lists{
+        a{
+            color: #0D0C0F !important;
+        }
+    }
+    .star{
+        svg{
+            color: #ffcd1a !important;
+        }
+    }
+    .down_share_like{
+        p{
+            color: #f9f9f9 !important;
+        }
+        svg{
+            color: #f9f9f9 !important;
+        }
+    }
+}
+.light{
+    background-color: #0D0C0F !important;
+    color: #f9f9f9;
+    #sidebar{
+        background-color: #1a161f !important;
+    }
+}
